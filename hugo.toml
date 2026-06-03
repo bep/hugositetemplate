@@ -1,14 +1,17 @@
 baseURL = "https://example.com/"
-title   = "My Hugo Site"
+title   = "AlpineJS with Hugo"
 
 # Only home for now, remove what you want.
 disableKinds = [
-    "taxonomy",
-    "term",
-    "404",
-    "page",
-    "robotstxt",
-    "rss",
-    "section",
-    "sitemap",
+	"taxonomy",
+	"term",
+	"404",
+	"page",
+	"robotstxt",
+	"rss",
+	"section",
+	"sitemap",
 ]
+
+[[module.imports]]
+	path = 'github.com/bep/npmtohugomodtestbench'
